@@ -61,9 +61,8 @@ return [
         'image' => [
             'folder_name'  => 'photos',
             'startup_view' => 'list',
-            'max_size'     => 200000, // size in KB
+            'max_size'     => 50000, // size in KB
             'valid_mime'   => [
-                'image/jpg',
                 'image/jpeg',
                 'image/pjpeg',
                 'image/png',
@@ -90,9 +89,8 @@ return [
     | Upload / Validation
     |--------------------------------------------------------------------------
      */
-    'disk' => 'public',
 
-    
+    'disk'                     => 'public',
 
     'rename_file'              => false,
 
